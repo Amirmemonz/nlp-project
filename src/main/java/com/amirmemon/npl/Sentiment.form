@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.amirmemon.npl.Sentiment">
+  <grid id="27dc6" binding="sentiment" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="400" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="25de4" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <preferredSize width="100" height="16"/>
+          <text value="Enter Text Here: "/>
+        </properties>
+      </component>
+      <component id="6831b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="350" height="60"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8e86a" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

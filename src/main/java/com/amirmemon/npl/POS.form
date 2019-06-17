@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.amirmemon.npl.POS">
+  <grid id="27dc6" binding="pos" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="715" height="822"/>
+    </constraints>
+    <properties>
+      <preferredSize width="600" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="34c1a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enter Text"/>
+        </properties>
+      </component>
+      <component id="32dfd" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="2" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="60"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8a294" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="4b7ed" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="380"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1.  CC   Coordinating conjunction"/>
+            <item value="2.  CD   Cardinal number"/>
+            <item value="3.  DT   Determiner"/>
+            <item value="4.  EX   Existential there"/>
+            <item value="5.  FW   Foreign word"/>
+            <item value="6.  IN   Preposition or subordinating conjunction"/>
+            <item value="7.  JJ   Adjective"/>
+            <item value="8.  JJR  Adjective, comparative"/>
+            <item value="9.  JJS  Adjective, superlative"/>
+            <item value="10. LS   List item marker"/>
+            <item value="11. MD   Modal"/>
+            <item value="12. NN   Noun, singular or mass"/>
+            <item value="13. NNS  Noun, plural"/>
+            <item value="14. NNP  Proper noun, singular"/>
+            <item value="15. NNPS Proper noun, plural"/>
+            <item value="16. PDT  Predeterminer"/>
+            <item value="17. POS  Possessive ending"/>
+            <item value="18. PRP  Personal pronoun"/>
+            <item value="19. PRP$ Possessive pronoun"/>
+            <item value="20. RB   Adverb"/>
+            <item value="21. RBR  Adverb, comparative"/>
+            <item value="22. RBS  Adverb, superlative"/>
+            <item value="23. RP   Particle"/>
+            <item value="24. SYM  Symbol"/>
+            <item value="25. TO   to"/>
+            <item value="26. UH   Interjection"/>
+            <item value="27. VB   Verb, base form"/>
+            <item value="28. VBD  Verb, past tense"/>
+            <item value="29. VBG  Verb, gerund or present participle"/>
+            <item value="30. VBN  Verb, past participle"/>
+            <item value="31. VBP  Verb, non-3rd person singular present"/>
+            <item value="32. VBZ  Verb, 3rd person singular present"/>
+            <item value="33. WDT  Wh-determiner"/>
+            <item value="34. WP   Wh-pronoun"/>
+            <item value="35. WP$  Possessive wh-pronoun"/>
+            <item value="36. WRB  Wh-adverb"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

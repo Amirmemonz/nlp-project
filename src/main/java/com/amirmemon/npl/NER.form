@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.amirmemon.npl.NER">
+  <grid id="27dc6" binding="MainPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="652" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6d5f" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Enter Text"/>
+        </properties>
+      </component>
+      <component id="2f307" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="50"/>
+        </properties>
+      </component>
+      <component id="6510c" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="City"/>
+        </properties>
+      </component>
+      <component id="280f6" class="javax.swing.JButton" binding="personButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Person"/>
+        </properties>
+      </component>
+      <component id="679fe" class="javax.swing.JButton" binding="dateButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Date"/>
+        </properties>
+      </component>
+      <component id="4f2bd" class="javax.swing.JButton" binding="countryButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Country"/>
+        </properties>
+      </component>
+      <component id="311fa" class="javax.swing.JButton" binding="emailButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="790f5" class="javax.swing.JButton" binding="stateOrProvinceButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="State or Province"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
